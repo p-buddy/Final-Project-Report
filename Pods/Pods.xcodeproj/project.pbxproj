@@ -1,0 +1,1173 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026AA868A1BAB08F291E79A7D3AC48B1 /* ILPDFFormChoiceField.h in Headers */ = {isa = PBXBuildFile; fileRef = 134A0930142654AE9D1EC5D7064C7147 /* ILPDFFormChoiceField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07EDE892DB1AD8B85D57A0983368CFBB /* ILPDFView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB6C7473B6CA4A7D81F60319771C003C /* ILPDFView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4E9ECC525C9435167BBE218651B302 /* ILPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 89123E25D33BE21CE86A023D8887BA79 /* ILPDFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17C1306B0CB337B9764CB14E75D24B7E /* Pods-Final-Project-Report-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2519260138606A9BBA869F96DD66F9FE /* Pods-Final-Project-Report-dummy.m */; };
+		1B6053DB4F426B47C4A91E97990824D3 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C9C0C99ABBA674C407AF77B437BDDE /* GoogleToolboxForMac-dummy.m */; };
+		31B8185679319C4C82636E76343A6D61 /* ILPDFStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0117AA13EEF408EB43A8E6CD9C7CED56 /* ILPDFStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3459A61A9E9A597F2C0195E6D6F495F8 /* ILPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A271B00D1F87C09B9B93797C144C1EA /* ILPDFView.m */; };
+		37077A4A225DFF6322884E3D32AFA602 /* ILPDFForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 550A8927F5664DE6D4F95327FC3BC786 /* ILPDFForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A45F9D6E1B1F5E025E4990574F4BC8C /* ILPDFForm.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F9F5C0078C91ADCD2B3E37E807B071 /* ILPDFForm.m */; };
+		3ABAB1DE9894FCE1BEA185F0A09CEC66 /* ILPDFObjectParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 198A799DA2ABD2E2CD007F1ADF462F79 /* ILPDFObjectParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC8A963ED60A2A17D580F54755A2FBA /* ILPDFObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 067F7E23D48DE92AA0F26505F1621BF8 /* ILPDFObjectParser.m */; };
+		3D5A8358B3CE03D143C39C4BF52B34D3 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9748EF674055E6455E48DEF08E4341 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3E95F89B82DAE7B02EB238BE787FC78A /* ILPDFUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4ACC825EB5AA57F40848FDD6D8D240 /* ILPDFUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		406A9666BE36034452DAF7F7CB4E6403 /* ILPDFFormSignatureField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F90ED6A03A5E7D56B407A793E46FA95 /* ILPDFFormSignatureField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439AE9069FD0A7785B81594BAF21964A /* ILPDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C54912116B4FE603BD76E85A31AFB2EC /* ILPDFPage.m */; };
+		45DCA9AA0ADA558308E321C53F37445E /* ILPDFDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 70650CCA1A0497C66DD444F2F3D3E79F /* ILPDFDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5130B1B7B235899CCAD7CEF3CB9CF65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		539CA8C97689B7A335E35DB0257D0DBE /* ILPDFFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5992F8BF8E830EED41ACB00B914327 /* ILPDFFormTextField.m */; };
+		6110EE85195A8063B9FFE9C3C33DC5FD /* Pods-Final-Project-ReportUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68280A2D53BF9A73352794F51D41EC47 /* Pods-Final-Project-ReportUITests-dummy.m */; };
+		61371F8D4ECB3A3E4C656F233AA04A01 /* ILPDFFormTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0160FCACDD0D0243E4C5B586C402C0 /* ILPDFFormTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6250E987B16FE3A836C94C688C98F915 /* ILPDFFormContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC424FC8DEED79A17608D2B1A6688B2 /* ILPDFFormContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		695068BF38A2AEBD448D3DA9F96FF965 /* ILPDFFormContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5AD104C9C665824AD9B6BA54910759 /* ILPDFFormContainer.m */; };
+		6B02824B166AF4649072CAB930283EEA /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EA0F30375CF9BE130C92597C5A86FD /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		704226EBDD5ACE37592DFE6B276D4D72 /* ILPDFNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C9C9E5005F19F842E81AF4C8EA0C1 /* ILPDFNumber.m */; };
+		73A7D1F5CAF0D5B57BB85BF91935B32B /* ILPDFPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC0C6763E3E87251EBC2F422F2BD8BD /* ILPDFPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A09D53B422AE8602CAF8C168F1EF04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		7ACB2FDA6DBB67270E8B5E4E73DCBEF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		7BF3BE0E6948C32C763FDEC984113331 /* ILPDFFormSignatureField.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BC34F594E781432E3F573CE724B646 /* ILPDFFormSignatureField.m */; };
+		7FD17BFBE7B344654E7FBF3E793CFAB5 /* ILPDFWidgetAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 921B8EE53DD498887B9AE54B95A506A1 /* ILPDFWidgetAnnotationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		830275F0C998BA27C47B0A97FFD3B6B7 /* ILPDFNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C60B511F16044DF5E44DD1243E87C25 /* ILPDFNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A34F2949EA5D5D25F7B077E457ED16 /* ILPDFFormButtonField.m in Sources */ = {isa = PBXBuildFile; fileRef = F035363AD2B6537F93DBB40B2323745C /* ILPDFFormButtonField.m */; };
+		85D2C0EF242FED75A9489180F790D95B /* ILPDFString.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A4393C2645D8701AF81127F8E860B2 /* ILPDFString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E79E1F1C1D6FCEB61017EF46754E61 /* ILPDFSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15F66445FB50286953A33B9CDE61BC /* ILPDFSerializer.m */; };
+		8A4ECF3A06428A8BEC1EB7AED4E1556B /* ILPDFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A35D5C3148F7A55A12B571D3CF6E940C /* ILPDFKit-dummy.m */; };
+		8E88E4A5789B3DBDED4A9700C5E5D39D /* ILPDFArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A41CD8AA78A0D089FAFB92CE9D1C8316 /* ILPDFArray.m */; };
+		8ED6A711EE2B2AF83BE1E75999E68407 /* ILPDFViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DCBD2BA8B634F9F55F893FA8DD599B /* ILPDFViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FF62E13819C73CD1ADFAD084AFE87B5 /* ILPDFNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = C74FED7C26ACC0E66989B5817A7F7DB4 /* ILPDFNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0162E1A1FDD884CBF235033F3D3288C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		B1CED899656A873DB17497369A7F62FB /* ILPDFWidgetAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E2BB9C1D068D52B2EC96037E1E29E4 /* ILPDFWidgetAnnotationView.m */; };
+		B215B60EE3E980B46736DD49063C92F6 /* ILPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C13EC1665EFDF2AEC356E309273970 /* ILPDFDocument.m */; };
+		B29492E55E0DDE7E1BADD07CD7288130 /* ILPDFArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DF75FEF91CF94946D8DA112800DF8B /* ILPDFArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B368C9E383EBE5E3D3344B62D83FAFF2 /* ILPDFName.m in Sources */ = {isa = PBXBuildFile; fileRef = 03831A2F5470AF28DD15AD44A4385F68 /* ILPDFName.m */; };
+		B3CF547C2F6515478DFA73D8F0E0D013 /* ILPDFSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = E8121C6E1904BA5C166314FAC1363836 /* ILPDFSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0BAF9F6A7F8F680058E4081BAC00AA8 /* ILPDFName.h in Headers */ = {isa = PBXBuildFile; fileRef = 4543F9C02ED95527FEB5CC9878F2AD15 /* ILPDFName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42E4A0733E1564B69EFD47E7C9A33C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */; };
+		C4B8C2B560EAA4AFDBA4BF38683BC4CB /* ILPDFDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = DE184607B36962CA0ED35188F8CC046D /* ILPDFDictionary.m */; };
+		CBC7548501161D689ACF033CA42AA1AB /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 907D33E1B8454B095BD79D733943CBBB /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD0644E22C1FD1872B69E81E2B990838 /* ILPDFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D5140621A9F66B962493D6B312D833 /* ILPDFKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD42206631C21C831CB09A2CA6AE579C /* ILPDFFormButtonField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC32D9419DD5092DA2969CBB41EA783 /* ILPDFFormButtonField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4CBCABA9AA5C16326E70D7E3FE8FE49 /* ILPDFStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C38F86169C5FF6B9A373034DA9140EA /* ILPDFStream.m */; };
+		D758BBEB3B21AF25B9AC992490391059 /* ILPDFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 739B7A0BD0452590EAFBF751FD41DDF6 /* ILPDFObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD2D0E23C620A1D691811B6559801D2 /* ILPDFNull.m in Sources */ = {isa = PBXBuildFile; fileRef = C890B79A89D72A055FACA47FA530AD83 /* ILPDFNull.m */; };
+		DCD9B30C342B56D86294089D484B8F8A /* ILPDFFormChoiceField.m in Sources */ = {isa = PBXBuildFile; fileRef = 970CE0E68DE999261AB24FE04C1AA932 /* ILPDFFormChoiceField.m */; };
+		E051862EA53B7F68B9D0ACACCEDE8063 /* Pods-Final-Project-ReportTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D3EF0CF9C8C650F02976D2DE9E2CDF /* Pods-Final-Project-ReportTests-dummy.m */; };
+		E456B44B3147F7B2CEDA13921B7CEF3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		EF45BBA8990395440BBAC4E3DCE0F000 /* ILPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A48604D3F2C1EB805A034A5C91643 /* ILPDFViewController.m */; };
+		F5F693DD5D0D86A4B173B3E9036308FA /* ILPDFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B16AA137455ED3F59768D3171FA694B5 /* ILPDFUtility.m */; };
+		FCF72A38700024F06FC444C2840D6599 /* ILPDFString.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CF89ADA944C6751B57B4DB1CC40C88 /* ILPDFString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D64074325871617EA136E6B49E71EEA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BBB76ADBF2EF4EF2CE5DF6BBC77296;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		FD396072D1D46ADE7F15E51B8D8C3034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC66CEF5DDD124FF27B70819FA198F4;
+			remoteInfo = ILPDFKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004C05FE74E91546862E015976E3B78E /* Pods-Final-Project-ReportUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Final-Project-ReportUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0117AA13EEF408EB43A8E6CD9C7CED56 /* ILPDFStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFStream.h; path = ILPDFKit/Model/Objects/ILPDFStream.h; sourceTree = "<group>"; };
+		03831A2F5470AF28DD15AD44A4385F68 /* ILPDFName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFName.m; path = ILPDFKit/Model/Objects/ILPDFName.m; sourceTree = "<group>"; };
+		067F7E23D48DE92AA0F26505F1621BF8 /* ILPDFObjectParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFObjectParser.m; path = ILPDFKit/Utility/ILPDFObjectParser.m; sourceTree = "<group>"; };
+		0A5992F8BF8E830EED41ACB00B914327 /* ILPDFFormTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormTextField.m; path = ILPDFKit/View/ILPDFFormTextField.m; sourceTree = "<group>"; };
+		0A86BB9A9CBE78F39CD5A0E2240FE1F3 /* libGoogleToolboxForMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGoogleToolboxForMac.a; path = libGoogleToolboxForMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDF54A72904213751682D872DC1AACE /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		0DC32D9419DD5092DA2969CBB41EA783 /* ILPDFFormButtonField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormButtonField.h; path = ILPDFKit/View/ILPDFFormButtonField.h; sourceTree = "<group>"; };
+		0F90ED6A03A5E7D56B407A793E46FA95 /* ILPDFFormSignatureField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormSignatureField.h; path = ILPDFKit/View/ILPDFFormSignatureField.h; sourceTree = "<group>"; };
+		134A0930142654AE9D1EC5D7064C7147 /* ILPDFFormChoiceField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormChoiceField.h; path = ILPDFKit/View/ILPDFFormChoiceField.h; sourceTree = "<group>"; };
+		13C13EC1665EFDF2AEC356E309273970 /* ILPDFDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFDocument.m; path = ILPDFKit/Model/ILPDFDocument.m; sourceTree = "<group>"; };
+		198A799DA2ABD2E2CD007F1ADF462F79 /* ILPDFObjectParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFObjectParser.h; path = ILPDFKit/Utility/ILPDFObjectParser.h; sourceTree = "<group>"; };
+		19DCBD2BA8B634F9F55F893FA8DD599B /* ILPDFViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFViewController.h; path = ILPDFKit/Controller/ILPDFViewController.h; sourceTree = "<group>"; };
+		1A271B00D1F87C09B9B93797C144C1EA /* ILPDFView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFView.m; path = ILPDFKit/View/ILPDFView.m; sourceTree = "<group>"; };
+		23C9C0C99ABBA674C407AF77B437BDDE /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		241DA842B40AE8A2B814CDC7AC9C733E /* Pods-Final-Project-ReportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Final-Project-ReportUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2519260138606A9BBA869F96DD66F9FE /* Pods-Final-Project-Report-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Final-Project-Report-dummy.m"; sourceTree = "<group>"; };
+		2AD81E4F858495FCB71AEF2185B6B050 /* Pods-Final-Project-Report-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Final-Project-Report-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FAA0EFC7517D1FA1E87E6635E5ED4FD /* libPods-Final-Project-Report.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Final-Project-Report.a"; path = "libPods-Final-Project-Report.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A6D6FA828203F8461924A32339CDA8 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		34AEC609A5645E4B01BF8250A8043D38 /* Pods-Final-Project-Report.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Final-Project-Report.debug.xcconfig"; sourceTree = "<group>"; };
+		3A4ACC825EB5AA57F40848FDD6D8D240 /* ILPDFUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFUtility.h; path = ILPDFKit/Utility/ILPDFUtility.h; sourceTree = "<group>"; };
+		3C38F86169C5FF6B9A373034DA9140EA /* ILPDFStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFStream.m; path = ILPDFKit/Model/Objects/ILPDFStream.m; sourceTree = "<group>"; };
+		3D0D63705B2AEA9170C30C984A042E32 /* Pods-Final-Project-ReportTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Final-Project-ReportTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4543F9C02ED95527FEB5CC9878F2AD15 /* ILPDFName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFName.h; path = ILPDFKit/Model/Objects/ILPDFName.h; sourceTree = "<group>"; };
+		4CC0C6763E3E87251EBC2F422F2BD8BD /* ILPDFPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFPage.h; path = ILPDFKit/Model/ILPDFPage.h; sourceTree = "<group>"; };
+		53224422D7BA9B5FDAAA34AFCF766B0E /* ILPDFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ILPDFKit-prefix.pch"; sourceTree = "<group>"; };
+		53CF89ADA944C6751B57B4DB1CC40C88 /* ILPDFString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFString.m; path = ILPDFKit/Model/Objects/ILPDFString.m; sourceTree = "<group>"; };
+		5431421193B10FD9D0ECB0E55213F1E2 /* Pods-Final-Project-ReportTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Final-Project-ReportTests-resources.sh"; sourceTree = "<group>"; };
+		550A8927F5664DE6D4F95327FC3BC786 /* ILPDFForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFForm.h; path = ILPDFKit/Model/ILPDFForm.h; sourceTree = "<group>"; };
+		57D1762E6EBA2B53F08FB7E50A21BF47 /* Pods-Final-Project-ReportTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Final-Project-ReportTests-frameworks.sh"; sourceTree = "<group>"; };
+		646018B003553A6263E3CF795C3E72D1 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		68280A2D53BF9A73352794F51D41EC47 /* Pods-Final-Project-ReportUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Final-Project-ReportUITests-dummy.m"; sourceTree = "<group>"; };
+		68D12CF631E71B2C250F1051EADD7FA7 /* libILPDFKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libILPDFKit.a; path = libILPDFKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A25952B5919E521BA39FB434BD86804 /* Pods-Final-Project-Report-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Final-Project-Report-frameworks.sh"; sourceTree = "<group>"; };
+		70650CCA1A0497C66DD444F2F3D3E79F /* ILPDFDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFDictionary.h; path = ILPDFKit/Model/Objects/ILPDFDictionary.h; sourceTree = "<group>"; };
+		739B7A0BD0452590EAFBF751FD41DDF6 /* ILPDFObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFObject.h; path = ILPDFKit/Model/Objects/ILPDFObject.h; sourceTree = "<group>"; };
+		7A15F66445FB50286953A33B9CDE61BC /* ILPDFSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFSerializer.m; path = ILPDFKit/Controller/ILPDFSerializer.m; sourceTree = "<group>"; };
+		7A3FCB6DDA960B495AB2CB900E8979A1 /* Pods-Final-Project-Report.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Final-Project-Report.release.xcconfig"; sourceTree = "<group>"; };
+		7B85FC8A72B0D85DD7AC8EC9FAD343CC /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		7DC424FC8DEED79A17608D2B1A6688B2 /* ILPDFFormContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormContainer.h; path = ILPDFKit/Model/ILPDFFormContainer.h; sourceTree = "<group>"; };
+		7E8C4F6645022991CD2EA2BEE049F938 /* Pods-Final-Project-ReportUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Final-Project-ReportUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81BC34F594E781432E3F573CE724B646 /* ILPDFFormSignatureField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormSignatureField.m; path = ILPDFKit/View/ILPDFFormSignatureField.m; sourceTree = "<group>"; };
+		87DF75FEF91CF94946D8DA112800DF8B /* ILPDFArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFArray.h; path = ILPDFKit/Model/Objects/ILPDFArray.h; sourceTree = "<group>"; };
+		89123E25D33BE21CE86A023D8887BA79 /* ILPDFDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFDocument.h; path = ILPDFKit/Model/ILPDFDocument.h; sourceTree = "<group>"; };
+		8925C94D10F3A679A7F4490E7C15E036 /* Pods-Final-Project-ReportUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Final-Project-ReportUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8B7BB8B255CFABE2436936961503D4DC /* libPods-Final-Project-ReportTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Final-Project-ReportTests.a"; path = "libPods-Final-Project-ReportTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE58A6BD49982B9D8587F97AA928CB1 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		8C60B511F16044DF5E44DD1243E87C25 /* ILPDFNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFNull.h; path = ILPDFKit/Model/Objects/ILPDFNull.h; sourceTree = "<group>"; };
+		907D33E1B8454B095BD79D733943CBBB /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		921B8EE53DD498887B9AE54B95A506A1 /* ILPDFWidgetAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFWidgetAnnotationView.h; path = ILPDFKit/View/ILPDFWidgetAnnotationView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E2BB9C1D068D52B2EC96037E1E29E4 /* ILPDFWidgetAnnotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFWidgetAnnotationView.m; path = ILPDFKit/View/ILPDFWidgetAnnotationView.m; sourceTree = "<group>"; };
+		970CE0E68DE999261AB24FE04C1AA932 /* ILPDFFormChoiceField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormChoiceField.m; path = ILPDFKit/View/ILPDFFormChoiceField.m; sourceTree = "<group>"; };
+		9756E8C46CFEC4D21740E509E75F7772 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		98A4393C2645D8701AF81127F8E860B2 /* ILPDFString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFString.h; path = ILPDFKit/Model/Objects/ILPDFString.h; sourceTree = "<group>"; };
+		A1D3EF0CF9C8C650F02976D2DE9E2CDF /* Pods-Final-Project-ReportTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Final-Project-ReportTests-dummy.m"; sourceTree = "<group>"; };
+		A32178D73B6F9FCD3D5EAA4BB19FC8C5 /* Pods-Final-Project-ReportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Final-Project-ReportTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3513B6901DBCDCE1497BED5AA69467A /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		A35D5C3148F7A55A12B571D3CF6E940C /* ILPDFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ILPDFKit-dummy.m"; sourceTree = "<group>"; };
+		A41CD8AA78A0D089FAFB92CE9D1C8316 /* ILPDFArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFArray.m; path = ILPDFKit/Model/Objects/ILPDFArray.m; sourceTree = "<group>"; };
+		A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AB85EFB751D0886913807035667F1045 /* ILPDFKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ILPDFKit.xcconfig; sourceTree = "<group>"; };
+		AD2A1AD8D79CCF28A747ADEEA27DD726 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		B16AA137455ED3F59768D3171FA694B5 /* ILPDFUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFUtility.m; path = ILPDFKit/Utility/ILPDFUtility.m; sourceTree = "<group>"; };
+		B6156CE9EA3EE516F8DEE3F477200445 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		BF0160FCACDD0D0243E4C5B586C402C0 /* ILPDFFormTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormTextField.h; path = ILPDFKit/View/ILPDFFormTextField.h; sourceTree = "<group>"; };
+		C2F9F5C0078C91ADCD2B3E37E807B071 /* ILPDFForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFForm.m; path = ILPDFKit/Model/ILPDFForm.m; sourceTree = "<group>"; };
+		C54912116B4FE603BD76E85A31AFB2EC /* ILPDFPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFPage.m; path = ILPDFKit/Model/ILPDFPage.m; sourceTree = "<group>"; };
+		C74FED7C26ACC0E66989B5817A7F7DB4 /* ILPDFNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFNumber.h; path = ILPDFKit/Model/Objects/ILPDFNumber.h; sourceTree = "<group>"; };
+		C7F88A57975D3B94C633C5154493D1B6 /* libPods-Final-Project-ReportUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Final-Project-ReportUITests.a"; path = "libPods-Final-Project-ReportUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C890B79A89D72A055FACA47FA530AD83 /* ILPDFNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFNull.m; path = ILPDFKit/Model/Objects/ILPDFNull.m; sourceTree = "<group>"; };
+		D0A1243AC324BAD8AD91AEBABA299886 /* Pods-Final-Project-ReportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Final-Project-ReportUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0EC02A0E67D4FFAAFB78F90886A900B /* Pods-Final-Project-ReportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Final-Project-ReportTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D70A48604D3F2C1EB805A034A5C91643 /* ILPDFViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFViewController.m; path = ILPDFKit/Controller/ILPDFViewController.m; sourceTree = "<group>"; };
+		DE184607B36962CA0ED35188F8CC046D /* ILPDFDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFDictionary.m; path = ILPDFKit/Model/Objects/ILPDFDictionary.m; sourceTree = "<group>"; };
+		DEF826BABBF28395711F33F87C05848F /* Pods-Final-Project-Report-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Final-Project-Report-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF9748EF674055E6455E48DEF08E4341 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		E119CC9F45686218C24E6591006FDDAD /* Pods-Final-Project-ReportUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Final-Project-ReportUITests-resources.sh"; sourceTree = "<group>"; };
+		E60C9C9E5005F19F842E81AF4C8EA0C1 /* ILPDFNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFNumber.m; path = ILPDFKit/Model/Objects/ILPDFNumber.m; sourceTree = "<group>"; };
+		E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E8121C6E1904BA5C166314FAC1363836 /* ILPDFSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFSerializer.h; path = ILPDFKit/Controller/ILPDFSerializer.h; sourceTree = "<group>"; };
+		E8D5140621A9F66B962493D6B312D833 /* ILPDFKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFKit.h; path = ILPDFKit/ILPDFKit.h; sourceTree = "<group>"; };
+		E9386A987228237B41B5AB1756F90090 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		EB6C7473B6CA4A7D81F60319771C003C /* ILPDFView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFView.h; path = ILPDFKit/View/ILPDFView.h; sourceTree = "<group>"; };
+		F035363AD2B6537F93DBB40B2323745C /* ILPDFFormButtonField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormButtonField.m; path = ILPDFKit/View/ILPDFFormButtonField.m; sourceTree = "<group>"; };
+		F14AA942FB9B4FDA977ECCDD7A91230B /* Pods-Final-Project-Report-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Final-Project-Report-resources.sh"; sourceTree = "<group>"; };
+		F3C1CE273E9879203F764A76A2851745 /* Pods-Final-Project-ReportTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Final-Project-ReportTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6EA0F30375CF9BE130C92597C5A86FD /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		FB5AD104C9C665824AD9B6BA54910759 /* ILPDFFormContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormContainer.m; path = ILPDFKit/Model/ILPDFFormContainer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CD3703931FA0420B3AFE437F80AECA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACB2FDA6DBB67270E8B5E4E73DCBEF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECE83C4DFF6609C85FE59BB5F77BD52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42E4A0733E1564B69EFD47E7C9A33C4 /* CoreGraphics.framework in Frameworks */,
+				A0162E1A1FDD884CBF235033F3D3288C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736872D0F6BFBDB3F36ED73405DE4E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5130B1B7B235899CCAD7CEF3CB9CF65F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874A509EF58312BAF17B8CCFB44D6A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E456B44B3147F7B2CEDA13921B7CEF3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD9664D24DAD7B4DE421D8DC365316C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A09D53B422AE8602CAF8C168F1EF04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0340C92B8E272DFFA51BBCB7DED4595D /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				7548BBE69A157B0D5D6DDC52D505F12B /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		0BE98C54F0D9E534934B1ECD5C384678 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C657EB2ADB5931D14EC8FC19F41D050 /* Firebase */,
+				0340C92B8E272DFFA51BBCB7DED4595D /* FirebaseAnalytics */,
+				4F45B7AB0B5C7BB498C81B2DBB4C7BCB /* FirebaseCore */,
+				B15DED709E3392CC8181895A39605F97 /* FirebaseDatabase */,
+				AC81FBD7C5DDDBE36364EEABCB52407D /* FirebaseInstanceID */,
+				6AA8A697363D6011DE51CA36274A8441 /* GoogleInterchangeUtilities */,
+				28E9AF33EE5D0786E3FB5CDF5399EB62 /* GoogleSymbolUtilities */,
+				59B22C1BCBF4047FCE5B97C8D89FAD2A /* GoogleToolboxForMac */,
+				9627841F3077E3F4DA0A7B8CF7C17269 /* ILPDFKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0C49578199D00B68B091F612AE46959B /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA0F30375CF9BE130C92597C5A86FD /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		0F064D04E379CE8E07B6BDB97C593316 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */,
+				A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		28E9AF33EE5D0786E3FB5CDF5399EB62 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A56708AE976BFE511BD1DB47466C06B1 /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		2A154118CC4B4365C9E5A66A9E5E0987 /* Pods-Final-Project-ReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0D63705B2AEA9170C30C984A042E32 /* Pods-Final-Project-ReportTests-acknowledgements.markdown */,
+				F3C1CE273E9879203F764A76A2851745 /* Pods-Final-Project-ReportTests-acknowledgements.plist */,
+				A1D3EF0CF9C8C650F02976D2DE9E2CDF /* Pods-Final-Project-ReportTests-dummy.m */,
+				57D1762E6EBA2B53F08FB7E50A21BF47 /* Pods-Final-Project-ReportTests-frameworks.sh */,
+				5431421193B10FD9D0ECB0E55213F1E2 /* Pods-Final-Project-ReportTests-resources.sh */,
+				D0EC02A0E67D4FFAAFB78F90886A900B /* Pods-Final-Project-ReportTests.debug.xcconfig */,
+				A32178D73B6F9FCD3D5EAA4BB19FC8C5 /* Pods-Final-Project-ReportTests.release.xcconfig */,
+			);
+			name = "Pods-Final-Project-ReportTests";
+			path = "Target Support Files/Pods-Final-Project-ReportTests";
+			sourceTree = "<group>";
+		};
+		2F60923246574F9527A4EC8A24811C4F /* Pods-Final-Project-Report */ = {
+			isa = PBXGroup;
+			children = (
+				2AD81E4F858495FCB71AEF2185B6B050 /* Pods-Final-Project-Report-acknowledgements.markdown */,
+				DEF826BABBF28395711F33F87C05848F /* Pods-Final-Project-Report-acknowledgements.plist */,
+				2519260138606A9BBA869F96DD66F9FE /* Pods-Final-Project-Report-dummy.m */,
+				6A25952B5919E521BA39FB434BD86804 /* Pods-Final-Project-Report-frameworks.sh */,
+				F14AA942FB9B4FDA977ECCDD7A91230B /* Pods-Final-Project-Report-resources.sh */,
+				34AEC609A5645E4B01BF8250A8043D38 /* Pods-Final-Project-Report.debug.xcconfig */,
+				7A3FCB6DDA960B495AB2CB900E8979A1 /* Pods-Final-Project-Report.release.xcconfig */,
+			);
+			name = "Pods-Final-Project-Report";
+			path = "Target Support Files/Pods-Final-Project-Report";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F064D04E379CE8E07B6BDB97C593316 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F45B7AB0B5C7BB498C81B2DBB4C7BCB /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				AE95AC85DAEF38B87C7A335615E52025 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		59B22C1BCBF4047FCE5B97C8D89FAD2A /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				0C49578199D00B68B091F612AE46959B /* Defines */,
+				AFBC639C89FD7F11D533258E5D273CF6 /* NSData+zlib */,
+				C25D4371D07DAF31AA408471FF5F5A59 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		5C804F3B2681DC9DE80CA03E184CCB1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB85EFB751D0886913807035667F1045 /* ILPDFKit.xcconfig */,
+				A35D5C3148F7A55A12B571D3CF6E940C /* ILPDFKit-dummy.m */,
+				53224422D7BA9B5FDAAA34AFCF766B0E /* ILPDFKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ILPDFKit";
+			sourceTree = "<group>";
+		};
+		5DC4A5DB78E358AA87D964A1D3390BFE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F60923246574F9527A4EC8A24811C4F /* Pods-Final-Project-Report */,
+				2A154118CC4B4365C9E5A66A9E5E0987 /* Pods-Final-Project-ReportTests */,
+				EF506F13BEA30DB6C314E29B39538A87 /* Pods-Final-Project-ReportUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6AA8A697363D6011DE51CA36274A8441 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D83049128E2CAD8BCC0970801713D232 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		7548BBE69A157B0D5D6DDC52D505F12B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9386A987228237B41B5AB1756F90090 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0BE98C54F0D9E534934B1ECD5C384678 /* Pods */,
+				8C2114156E3C0078BFD01AC22D9013F3 /* Products */,
+				5DC4A5DB78E358AA87D964A1D3390BFE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2114156E3C0078BFD01AC22D9013F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A86BB9A9CBE78F39CD5A0E2240FE1F3 /* libGoogleToolboxForMac.a */,
+				68D12CF631E71B2C250F1051EADD7FA7 /* libILPDFKit.a */,
+				2FAA0EFC7517D1FA1E87E6635E5ED4FD /* libPods-Final-Project-Report.a */,
+				8B7BB8B255CFABE2436936961503D4DC /* libPods-Final-Project-ReportTests.a */,
+				C7F88A57975D3B94C633C5154493D1B6 /* libPods-Final-Project-ReportUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C657EB2ADB5931D14EC8FC19F41D050 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				A4B64620246EC4F69B3A7BA1E9B7BB27 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		9627841F3077E3F4DA0A7B8CF7C17269 /* ILPDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				87DF75FEF91CF94946D8DA112800DF8B /* ILPDFArray.h */,
+				A41CD8AA78A0D089FAFB92CE9D1C8316 /* ILPDFArray.m */,
+				70650CCA1A0497C66DD444F2F3D3E79F /* ILPDFDictionary.h */,
+				DE184607B36962CA0ED35188F8CC046D /* ILPDFDictionary.m */,
+				89123E25D33BE21CE86A023D8887BA79 /* ILPDFDocument.h */,
+				13C13EC1665EFDF2AEC356E309273970 /* ILPDFDocument.m */,
+				550A8927F5664DE6D4F95327FC3BC786 /* ILPDFForm.h */,
+				C2F9F5C0078C91ADCD2B3E37E807B071 /* ILPDFForm.m */,
+				0DC32D9419DD5092DA2969CBB41EA783 /* ILPDFFormButtonField.h */,
+				F035363AD2B6537F93DBB40B2323745C /* ILPDFFormButtonField.m */,
+				134A0930142654AE9D1EC5D7064C7147 /* ILPDFFormChoiceField.h */,
+				970CE0E68DE999261AB24FE04C1AA932 /* ILPDFFormChoiceField.m */,
+				7DC424FC8DEED79A17608D2B1A6688B2 /* ILPDFFormContainer.h */,
+				FB5AD104C9C665824AD9B6BA54910759 /* ILPDFFormContainer.m */,
+				0F90ED6A03A5E7D56B407A793E46FA95 /* ILPDFFormSignatureField.h */,
+				81BC34F594E781432E3F573CE724B646 /* ILPDFFormSignatureField.m */,
+				BF0160FCACDD0D0243E4C5B586C402C0 /* ILPDFFormTextField.h */,
+				0A5992F8BF8E830EED41ACB00B914327 /* ILPDFFormTextField.m */,
+				E8D5140621A9F66B962493D6B312D833 /* ILPDFKit.h */,
+				4543F9C02ED95527FEB5CC9878F2AD15 /* ILPDFName.h */,
+				03831A2F5470AF28DD15AD44A4385F68 /* ILPDFName.m */,
+				8C60B511F16044DF5E44DD1243E87C25 /* ILPDFNull.h */,
+				C890B79A89D72A055FACA47FA530AD83 /* ILPDFNull.m */,
+				C74FED7C26ACC0E66989B5817A7F7DB4 /* ILPDFNumber.h */,
+				E60C9C9E5005F19F842E81AF4C8EA0C1 /* ILPDFNumber.m */,
+				739B7A0BD0452590EAFBF751FD41DDF6 /* ILPDFObject.h */,
+				198A799DA2ABD2E2CD007F1ADF462F79 /* ILPDFObjectParser.h */,
+				067F7E23D48DE92AA0F26505F1621BF8 /* ILPDFObjectParser.m */,
+				4CC0C6763E3E87251EBC2F422F2BD8BD /* ILPDFPage.h */,
+				C54912116B4FE603BD76E85A31AFB2EC /* ILPDFPage.m */,
+				E8121C6E1904BA5C166314FAC1363836 /* ILPDFSerializer.h */,
+				7A15F66445FB50286953A33B9CDE61BC /* ILPDFSerializer.m */,
+				0117AA13EEF408EB43A8E6CD9C7CED56 /* ILPDFStream.h */,
+				3C38F86169C5FF6B9A373034DA9140EA /* ILPDFStream.m */,
+				98A4393C2645D8701AF81127F8E860B2 /* ILPDFString.h */,
+				53CF89ADA944C6751B57B4DB1CC40C88 /* ILPDFString.m */,
+				3A4ACC825EB5AA57F40848FDD6D8D240 /* ILPDFUtility.h */,
+				B16AA137455ED3F59768D3171FA694B5 /* ILPDFUtility.m */,
+				EB6C7473B6CA4A7D81F60319771C003C /* ILPDFView.h */,
+				1A271B00D1F87C09B9B93797C144C1EA /* ILPDFView.m */,
+				19DCBD2BA8B634F9F55F893FA8DD599B /* ILPDFViewController.h */,
+				D70A48604D3F2C1EB805A034A5C91643 /* ILPDFViewController.m */,
+				921B8EE53DD498887B9AE54B95A506A1 /* ILPDFWidgetAnnotationView.h */,
+				93E2BB9C1D068D52B2EC96037E1E29E4 /* ILPDFWidgetAnnotationView.m */,
+				5C804F3B2681DC9DE80CA03E184CCB1D /* Support Files */,
+			);
+			name = ILPDFKit;
+			path = ILPDFKit;
+			sourceTree = "<group>";
+		};
+		A4B64620246EC4F69B3A7BA1E9B7BB27 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				646018B003553A6263E3CF795C3E72D1 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A56708AE976BFE511BD1DB47466C06B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD2A1AD8D79CCF28A747ADEEA27DD726 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC81FBD7C5DDDBE36364EEABCB52407D /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				7B85FC8A72B0D85DD7AC8EC9FAD343CC /* FIRInstanceID.h */,
+				CF67AB2A6C02829471979EF33ECCC5D9 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		AE95AC85DAEF38B87C7A335615E52025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CDF54A72904213751682D872DC1AACE /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFBC639C89FD7F11D533258E5D273CF6 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				907D33E1B8454B095BD79D733943CBBB /* GTMNSData+zlib.h */,
+				DF9748EF674055E6455E48DEF08E4341 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		B15DED709E3392CC8181895A39605F97 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2DA3768D769904C4D8A13DB22F960 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		C25D4371D07DAF31AA408471FF5F5A59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BE58A6BD49982B9D8587F97AA928CB1 /* GoogleToolboxForMac.xcconfig */,
+				23C9C0C99ABBA674C407AF77B437BDDE /* GoogleToolboxForMac-dummy.m */,
+				9756E8C46CFEC4D21740E509E75F7772 /* GoogleToolboxForMac-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		CF67AB2A6C02829471979EF33ECCC5D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3513B6901DBCDCE1497BED5AA69467A /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D83049128E2CAD8BCC0970801713D232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6156CE9EA3EE516F8DEE3F477200445 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF506F13BEA30DB6C314E29B39538A87 /* Pods-Final-Project-ReportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E8C4F6645022991CD2EA2BEE049F938 /* Pods-Final-Project-ReportUITests-acknowledgements.markdown */,
+				004C05FE74E91546862E015976E3B78E /* Pods-Final-Project-ReportUITests-acknowledgements.plist */,
+				68280A2D53BF9A73352794F51D41EC47 /* Pods-Final-Project-ReportUITests-dummy.m */,
+				8925C94D10F3A679A7F4490E7C15E036 /* Pods-Final-Project-ReportUITests-frameworks.sh */,
+				E119CC9F45686218C24E6591006FDDAD /* Pods-Final-Project-ReportUITests-resources.sh */,
+				241DA842B40AE8A2B814CDC7AC9C733E /* Pods-Final-Project-ReportUITests.debug.xcconfig */,
+				D0A1243AC324BAD8AD91AEBABA299886 /* Pods-Final-Project-ReportUITests.release.xcconfig */,
+			);
+			name = "Pods-Final-Project-ReportUITests";
+			path = "Target Support Files/Pods-Final-Project-ReportUITests";
+			sourceTree = "<group>";
+		};
+		F8A2DA3768D769904C4D8A13DB22F960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31A6D6FA828203F8461924A32339CDA8 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34476B01833D8F46D0CEB0D1A2BDEECD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B02824B166AF4649072CAB930283EEA /* GTMDefines.h in Headers */,
+				CBC7548501161D689ACF033CA42AA1AB /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0B96EF9D24628095C1156136E5BD4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29492E55E0DDE7E1BADD07CD7288130 /* ILPDFArray.h in Headers */,
+				45DCA9AA0ADA558308E321C53F37445E /* ILPDFDictionary.h in Headers */,
+				0A4E9ECC525C9435167BBE218651B302 /* ILPDFDocument.h in Headers */,
+				37077A4A225DFF6322884E3D32AFA602 /* ILPDFForm.h in Headers */,
+				CD42206631C21C831CB09A2CA6AE579C /* ILPDFFormButtonField.h in Headers */,
+				026AA868A1BAB08F291E79A7D3AC48B1 /* ILPDFFormChoiceField.h in Headers */,
+				6250E987B16FE3A836C94C688C98F915 /* ILPDFFormContainer.h in Headers */,
+				406A9666BE36034452DAF7F7CB4E6403 /* ILPDFFormSignatureField.h in Headers */,
+				61371F8D4ECB3A3E4C656F233AA04A01 /* ILPDFFormTextField.h in Headers */,
+				CD0644E22C1FD1872B69E81E2B990838 /* ILPDFKit.h in Headers */,
+				C0BAF9F6A7F8F680058E4081BAC00AA8 /* ILPDFName.h in Headers */,
+				830275F0C998BA27C47B0A97FFD3B6B7 /* ILPDFNull.h in Headers */,
+				8FF62E13819C73CD1ADFAD084AFE87B5 /* ILPDFNumber.h in Headers */,
+				D758BBEB3B21AF25B9AC992490391059 /* ILPDFObject.h in Headers */,
+				3ABAB1DE9894FCE1BEA185F0A09CEC66 /* ILPDFObjectParser.h in Headers */,
+				73A7D1F5CAF0D5B57BB85BF91935B32B /* ILPDFPage.h in Headers */,
+				B3CF547C2F6515478DFA73D8F0E0D013 /* ILPDFSerializer.h in Headers */,
+				31B8185679319C4C82636E76343A6D61 /* ILPDFStream.h in Headers */,
+				85D2C0EF242FED75A9489180F790D95B /* ILPDFString.h in Headers */,
+				3E95F89B82DAE7B02EB238BE787FC78A /* ILPDFUtility.h in Headers */,
+				07EDE892DB1AD8B85D57A0983368CFBB /* ILPDFView.h in Headers */,
+				8ED6A711EE2B2AF83BE1E75999E68407 /* ILPDFViewController.h in Headers */,
+				7FD17BFBE7B344654E7FBF3E793CFAB5 /* ILPDFWidgetAnnotationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6CB0736DB42CF94871686220FDCAD20D /* Pods-Final-Project-ReportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FEFC3A1B568B346A0AD33D11913DA8 /* Build configuration list for PBXNativeTarget "Pods-Final-Project-ReportUITests" */;
+			buildPhases = (
+				D9E419D9C940027D18157CBB4602991C /* Sources */,
+				BCD9664D24DAD7B4DE421D8DC365316C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Final-Project-ReportUITests";
+			productName = "Pods-Final-Project-ReportUITests";
+			productReference = C7F88A57975D3B94C633C5154493D1B6 /* libPods-Final-Project-ReportUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		77819F3EE09D3E5AF31F6E8093404EFE /* Pods-Final-Project-Report */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47E4A614977A2730AAB3A66E3803574 /* Build configuration list for PBXNativeTarget "Pods-Final-Project-Report" */;
+			buildPhases = (
+				F68FB7F4692AF898979E105F54985AE3 /* Sources */,
+				1CD3703931FA0420B3AFE437F80AECA5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14EACCE27D0B96648D794C97FAE1CB58 /* PBXTargetDependency */,
+				128ED8F022DFE7C4E631B009EE543CCF /* PBXTargetDependency */,
+			);
+			name = "Pods-Final-Project-Report";
+			productName = "Pods-Final-Project-Report";
+			productReference = 2FAA0EFC7517D1FA1E87E6635E5ED4FD /* libPods-Final-Project-Report.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7BF3CC5581BF7A70643710F0EA49AD29 /* Pods-Final-Project-ReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB56786173DDD5711F70BA0C4EDAB936 /* Build configuration list for PBXNativeTarget "Pods-Final-Project-ReportTests" */;
+			buildPhases = (
+				D4FBCB1E491E9BA27C23F4CACDC61526 /* Sources */,
+				874A509EF58312BAF17B8CCFB44D6A49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Final-Project-ReportTests";
+			productName = "Pods-Final-Project-ReportTests";
+			productReference = 8B7BB8B255CFABE2436936961503D4DC /* libPods-Final-Project-ReportTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CEC66CEF5DDD124FF27B70819FA198F4 /* ILPDFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2850DA6223DF906C638235DF40FC83 /* Build configuration list for PBXNativeTarget "ILPDFKit" */;
+			buildPhases = (
+				364EA691D8341AC20D12E61F63CAECA1 /* Sources */,
+				5ECE83C4DFF6609C85FE59BB5F77BD52 /* Frameworks */,
+				9D0B96EF9D24628095C1156136E5BD4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILPDFKit;
+			productName = ILPDFKit;
+			productReference = 68D12CF631E71B2C250F1051EADD7FA7 /* libILPDFKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1BBB76ADBF2EF4EF2CE5DF6BBC77296 /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8E910B89548204C9E82F8F7CCB1460E /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				E039C8832DF36C6AA9B398412DBAA4B5 /* Sources */,
+				736872D0F6BFBDB3F36ED73405DE4E29 /* Frameworks */,
+				34476B01833D8F46D0CEB0D1A2BDEECD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 0A86BB9A9CBE78F39CD5A0E2240FE1F3 /* libGoogleToolboxForMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8C2114156E3C0078BFD01AC22D9013F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1BBB76ADBF2EF4EF2CE5DF6BBC77296 /* GoogleToolboxForMac */,
+				CEC66CEF5DDD124FF27B70819FA198F4 /* ILPDFKit */,
+				77819F3EE09D3E5AF31F6E8093404EFE /* Pods-Final-Project-Report */,
+				7BF3CC5581BF7A70643710F0EA49AD29 /* Pods-Final-Project-ReportTests */,
+				6CB0736DB42CF94871686220FDCAD20D /* Pods-Final-Project-ReportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		364EA691D8341AC20D12E61F63CAECA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E88E4A5789B3DBDED4A9700C5E5D39D /* ILPDFArray.m in Sources */,
+				C4B8C2B560EAA4AFDBA4BF38683BC4CB /* ILPDFDictionary.m in Sources */,
+				B215B60EE3E980B46736DD49063C92F6 /* ILPDFDocument.m in Sources */,
+				3A45F9D6E1B1F5E025E4990574F4BC8C /* ILPDFForm.m in Sources */,
+				84A34F2949EA5D5D25F7B077E457ED16 /* ILPDFFormButtonField.m in Sources */,
+				DCD9B30C342B56D86294089D484B8F8A /* ILPDFFormChoiceField.m in Sources */,
+				695068BF38A2AEBD448D3DA9F96FF965 /* ILPDFFormContainer.m in Sources */,
+				7BF3BE0E6948C32C763FDEC984113331 /* ILPDFFormSignatureField.m in Sources */,
+				539CA8C97689B7A335E35DB0257D0DBE /* ILPDFFormTextField.m in Sources */,
+				8A4ECF3A06428A8BEC1EB7AED4E1556B /* ILPDFKit-dummy.m in Sources */,
+				B368C9E383EBE5E3D3344B62D83FAFF2 /* ILPDFName.m in Sources */,
+				DBD2D0E23C620A1D691811B6559801D2 /* ILPDFNull.m in Sources */,
+				704226EBDD5ACE37592DFE6B276D4D72 /* ILPDFNumber.m in Sources */,
+				3AC8A963ED60A2A17D580F54755A2FBA /* ILPDFObjectParser.m in Sources */,
+				439AE9069FD0A7785B81594BAF21964A /* ILPDFPage.m in Sources */,
+				86E79E1F1C1D6FCEB61017EF46754E61 /* ILPDFSerializer.m in Sources */,
+				D4CBCABA9AA5C16326E70D7E3FE8FE49 /* ILPDFStream.m in Sources */,
+				FCF72A38700024F06FC444C2840D6599 /* ILPDFString.m in Sources */,
+				F5F693DD5D0D86A4B173B3E9036308FA /* ILPDFUtility.m in Sources */,
+				3459A61A9E9A597F2C0195E6D6F495F8 /* ILPDFView.m in Sources */,
+				EF45BBA8990395440BBAC4E3DCE0F000 /* ILPDFViewController.m in Sources */,
+				B1CED899656A873DB17497369A7F62FB /* ILPDFWidgetAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FBCB1E491E9BA27C23F4CACDC61526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E051862EA53B7F68B9D0ACACCEDE8063 /* Pods-Final-Project-ReportTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E419D9C940027D18157CBB4602991C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6110EE85195A8063B9FFE9C3C33DC5FD /* Pods-Final-Project-ReportUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E039C8832DF36C6AA9B398412DBAA4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6053DB4F426B47C4A91E97990824D3 /* GoogleToolboxForMac-dummy.m in Sources */,
+				3D5A8358B3CE03D143C39C4BF52B34D3 /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68FB7F4692AF898979E105F54985AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C1306B0CB337B9764CB14E75D24B7E /* Pods-Final-Project-Report-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128ED8F022DFE7C4E631B009EE543CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ILPDFKit;
+			target = CEC66CEF5DDD124FF27B70819FA198F4 /* ILPDFKit */;
+			targetProxy = FD396072D1D46ADE7F15E51B8D8C3034 /* PBXContainerItemProxy */;
+		};
+		14EACCE27D0B96648D794C97FAE1CB58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = E1BBB76ADBF2EF4EF2CE5DF6BBC77296 /* GoogleToolboxForMac */;
+			targetProxy = D64074325871617EA136E6B49E71EEA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2B188E8CC1A6A93980BB86EADE23311A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A1243AC324BAD8AD91AEBABA299886 /* Pods-Final-Project-ReportUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		38CDF8ED59FB2D13D9B9900223E3878B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241DA842B40AE8A2B814CDC7AC9C733E /* Pods-Final-Project-ReportUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		52EDB17FA7BEAAE6B37424F348865B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB85EFB751D0886913807035667F1045 /* ILPDFKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ILPDFKit/ILPDFKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		69EA47D48A139B65FB8350131D6D99D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE58A6BD49982B9D8587F97AA928CB1 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7DB7966F2AC9DF99D74D5AFE4973AABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE58A6BD49982B9D8587F97AA928CB1 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9449E5E846A6BFACE158D8520472F1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB85EFB751D0886913807035667F1045 /* ILPDFKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ILPDFKit/ILPDFKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		97E6158300928CC2285583E767BCFF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3FCB6DDA960B495AB2CB900E8979A1 /* Pods-Final-Project-Report.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9DAC05BCB3E640BA48B17A117BC1E3DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AEC609A5645E4B01BF8250A8043D38 /* Pods-Final-Project-Report.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B1ED87EF2A037DE9EE14AB62048D81C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EC02A0E67D4FFAAFB78F90886A900B /* Pods-Final-Project-ReportTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF58702EACE7F70F619D1639DE3ABEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32178D73B6F9FCD3D5EAA4BB19FC8C5 /* Pods-Final-Project-ReportTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2850DA6223DF906C638235DF40FC83 /* Build configuration list for PBXNativeTarget "ILPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9449E5E846A6BFACE158D8520472F1C7 /* Debug */,
+				52EDB17FA7BEAAE6B37424F348865B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FEFC3A1B568B346A0AD33D11913DA8 /* Build configuration list for PBXNativeTarget "Pods-Final-Project-ReportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CDF8ED59FB2D13D9B9900223E3878B /* Debug */,
+				2B188E8CC1A6A93980BB86EADE23311A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB56786173DDD5711F70BA0C4EDAB936 /* Build configuration list for PBXNativeTarget "Pods-Final-Project-ReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1ED87EF2A037DE9EE14AB62048D81C7 /* Debug */,
+				CF58702EACE7F70F619D1639DE3ABEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B47E4A614977A2730AAB3A66E3803574 /* Build configuration list for PBXNativeTarget "Pods-Final-Project-Report" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAC05BCB3E640BA48B17A117BC1E3DE /* Debug */,
+				97E6158300928CC2285583E767BCFF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8E910B89548204C9E82F8F7CCB1460E /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EA47D48A139B65FB8350131D6D99D9 /* Debug */,
+				7DB7966F2AC9DF99D74D5AFE4973AABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

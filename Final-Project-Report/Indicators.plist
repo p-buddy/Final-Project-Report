@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Physical Indicators of Physical Neglect</string>
+		<key>Details</key>
+		<string>• Unattended medical needs.
+• Lack of supervision.
+• Regular signs of hunger, inappropriate dress, poor hygiene.
+• Distended stomach, emaciated.
+• Significant weight change.</string>
+		<key>Image</key>
+		<string>physicalneglect.png</string>
+		<key>Background</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Behavioral Indicators of Physical Neglect</string>
+		<key>Details</key>
+		<string>• Regularly displays fatigue or listlessness, falls asleep in class.
+• Steals/hoards food, begs from classmates.
+• Reports that no caretaker is at home.</string>
+		<key>Image</key>
+		<string>behavorialneglect.png</string>
+		<key>Background</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Physical Indicators of Physical Abuse</string>
+		<key>Details</key>
+		<string>• Unexplained bruises (in various stages of healing), welts, loop marks.
+• Adult/human bite marks.
+•  Bald spots or missing clumps of hair.
+• Unexplained burns/scalds.
+• Unexplained fractures, skin lacerations/punctures or abrasions.
+• Swollen lips/chipped teeth.
+• Linear/parallel marks on cheeks and temple area.
+• Crescent-shaped bruising.
+• Puncture wounds.
+• Bruising behind the ears. </string>
+		<key>Image</key>
+		<string>physicalphysical.png</string>
+		<key>Background</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Behavorial Indicators of Physical Abuse</string>
+		<key>Details</key>
+		<string>• Self-destructive/self-mutilation.
+• Withdrawn and/or aggressive-behavior extremes.
+• Uncomfortable/skittish with physical contact.
+• Arrives at school late or stays late as if afraid to be at home.
+• Chronic runaway (adolescents).
+• Complains of soreness or moves uncomfortably.
+• Wears clothing inappropriate to weather, to cover body.
+• Lack of impulse control (e.g. inappropriate outbursts).</string>
+		<key>Image</key>
+		<string>behavorialphysical.png</string>
+		<key>Background</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Physical Indicators of Sexual Abuse</string>
+		<key>Details</key>
+		<string>• Pain or itching in genital area.
+• Bruises or bleeding in genital area.
+• Sexually transmitted disease.
+• Frequent urinary or yeast infections.
+• Extreme or sudden weight change.
+• Pregnancy under 12 years of age.</string>
+		<key>Image</key>
+		<string>physicalsexual.png</string>
+		<key>Background</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Behavior Indicators of Sexual Abuse</string>
+		<key>Details</key>
+		<string>• Withdrawal, chronic depression.
+• Sexual behaviors or references that are unusual for the child&apos;s age.
+• Seductive or promiscuous behavior.
+• Poor self-esteem, self-devaluation, lack of confidence.
+• Suicide attempts (especially adolescents).
+• Hysteria, lack of emotional control.
+</string>
+		<key>Image</key>
+		<string>behavorialsexual.png</string>
+		<key>Background</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

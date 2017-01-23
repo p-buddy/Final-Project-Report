@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>196658295753-8v18vc6ad8iupepi6hvu1221cse67c24.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.196658295753-8v18vc6ad8iupepi6hvu1221cse67c24</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDUQEc-wvrKY5Vw5OLm2LRqK36Ko2Y5ULo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>196658295753</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.parkerm.Final-Project-Report</string>
+	<key>PROJECT_ID</key>
+	<string>foster-care-report</string>
+	<key>STORAGE_BUCKET</key>
+	<string>foster-care-report.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:196658295753:ios:cc3bcff78de5060f</string>
+	<key>DATABASE_URL</key>
+	<string>https://foster-care-report.firebaseio.com</string>
+</dict>
+</plist>
